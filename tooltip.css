@@ -1,0 +1,40 @@
+.tooltip {
+  width: fit-content;
+  margin: 50px auto;
+  padding: 5px 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  position: relative;
+}
+
+.tooltip::after {
+  content: attr(data-msg);
+  position: absolute;
+  width: max-content;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 5px;
+
+  left: calc(100% + 5px);
+  bottom: 3px;
+  opacity: 0;
+}
+.tooltip::before {
+  content: "";
+  position: absolute;
+  bottom: 25%;
+  left: calc(100% + 4px);
+  width: 15px;
+  height: 15px;
+  background-color: cornflowerblue;
+  opacity: 0;
+
+  transform: rotate(45deg);
+}
+
+.tooltip:hover::before,
+.tooltip:hover::after {
+  opacity: 1;
+}
