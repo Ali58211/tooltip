@@ -37,4 +37,4 @@ AlT GR +}, Space = `
 ALT + 96
 ```
 
-Aca va a estar el conflicto
+Aca va a estar el quilombo
