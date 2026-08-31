@@ -6,5 +6,6 @@ git branch --all -> listar ramas locales y remotas
 git remote add origin <link> -> agrega un vonculo remoto para el repositorio
 hit push -u origin [nombre-rama] -> "sube" la rama local al remote (estose hace una sola vez)
 git push -> sube los cambios al remote
+git clone <url> -> clonar el repo remoto, en local:)
 
 MD -> Marckdown
