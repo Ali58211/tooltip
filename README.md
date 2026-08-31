@@ -28,7 +28,7 @@ _texto en italic_
 ```
 
 ```bash
-mkdir proyecto; cd proyecto
+mkdir proyecto
 ```
 
 ```
